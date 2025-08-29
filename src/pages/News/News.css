@@ -1,0 +1,228 @@
+.news-page {
+  background: #000;
+  min-height: 100vh;
+}
+
+.news-hero {
+  background: linear-gradient(135deg, #000 0%, #1a1a1a 100%);
+  padding: 100px 0 60px;
+  text-align: center;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.news-hero-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #8B5CF6, #FFD700);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.news-hero-description {
+  font-size: 1.2rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.news-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.categories {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.category-btn {
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  color: #ccc;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  color: #8B5CF6;
+  border-color: #8B5CF6;
+  background: rgba(139, 92, 246, 0.2);
+}
+
+.category-btn.active {
+  background: linear-gradient(135deg, #8B5CF6, #7C3AED);
+  border-color: #8B5CF6;
+  color: #fff;
+}
+
+.news-search .ant-input {
+  background: rgba(26, 26, 26, 0.8) !important;
+  border: 1px solid rgba(139, 92, 246, 0.3) !important;
+  color: #fff !important;
+}
+
+.news-search .ant-input:focus {
+  border-color: #8B5CF6 !important;
+  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2) !important;
+}
+
+.news-search .ant-input::placeholder {
+  color: #888 !important;
+}
+
+.news-card {
+  background: rgba(26, 26, 26, 0.8);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.news-card.featured {
+  border-color: rgba(255, 215, 0, 0.4);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+}
+
+.news-card:hover {
+  border-color: #8B5CF6;
+  box-shadow: 0 15px 40px rgba(139, 92, 246, 0.3);
+  transform: translateY(-5px);
+}
+
+.news-image-container {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.news-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover .news-image {
+  transform: scale(1.1);
+}
+
+.news-overlay {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.category-tag {
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.news-title {
+  color: #fff !important;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.news-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.news-description {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.news-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.news-meta {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.news-date,
+.news-views {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.news-meta .icon {
+  color: #8B5CF6;
+}
+
+.read-more-btn {
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  color: #8B5CF6;
+  font-weight: 600;
+}
+
+.read-more-btn:hover {
+  background: rgba(139, 92, 246, 0.2);
+  border-color: #8B5CF6;
+  color: #8B5CF6;
+}
+
+.ant-card-body {
+  background: transparent !important;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .news-filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .categories {
+    justify-content: center;
+  }
+
+  .category-btn {
+    flex: 1;
+    min-width: 120px;
+  }
+
+  .news-search {
+    max-width: 100% !important;
+  }
+
+  .news-footer {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .news-meta {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
