@@ -24,7 +24,6 @@ const Header = () => {
   const menuItems = [
     { key: '/', label: 'Home', path: '/' },
     { key: '/team', label: 'Team', path: '/team' },
-    { key: '/matches', label: 'Matches', path: '/matches' },
     { key: '/news', label: 'News', path: '/news' },
     { key: '/shop', label: 'Shop', path: '/shop' },
     { key: '/contacts', label: 'Contacts', path: '/contacts' },

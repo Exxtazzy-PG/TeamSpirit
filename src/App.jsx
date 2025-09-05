@@ -4,7 +4,6 @@ import { ConfigProvider } from 'antd';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home/Home';
 import Team from './pages/Team/Team';
-import Matches from './pages/Matches/Matches';
 import News from './pages/News/News';
 import Shop from './pages/Shop/Shop';
 import Contacts from './pages/Contacts/Contacts';
@@ -29,7 +28,6 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/team" element={<Team />} />
-              <Route path="/matches" element={<Matches />} />
               <Route path="/news" element={<News />} />
               <Route path="/shop" element={<Shop />} />
               <Route path="/contacts" element={<Contacts />} />

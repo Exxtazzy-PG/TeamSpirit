@@ -13,7 +13,7 @@ const Team = () => {
       nickname: 'TORONTOTOKYO',
       name: 'Александр Хереш',
       role: 'Carry',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg',
+      image: 'https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttydbPaERSR0WqmuqKgQfUYS42ES-RPPa14WyMHqE6lhKosjk5lj-RA_i0cKzrHUMv6v-PepoJvLFDTaUx7Yu6bc-S3mwx09y5mzdyNz6cn-QbVcjDpF2ReYD4RG6jJS5YCuRbk4g/360fx360f',
       socials: {
         twitch: '#',
         instagram: '#',
@@ -25,7 +25,7 @@ const Team = () => {
       nickname: 'collapse',
       name: 'Магомед Халилов',
       role: 'Midlaner',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
+      image: 'https://images.cybersport.ru/images/details-photo/plain/1a/1a1e5f4c-b751-4944-9998-be50f6de18fd.png',
       socials: {
         twitch: '#',
         instagram: '#',
@@ -37,7 +37,7 @@ const Team = () => {
       nickname: 'YATORO',
       name: 'Илья Мулярчук',
       role: 'Carry',
-      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg',
+      image: 'https://images.cybersport.ru/images/as-is/plain/a5/a52b2b1c-a3f5-4a28-8b66-8801752191fa.png',
       socials: {
         twitch: '#',
         instagram: '#',
@@ -49,7 +49,7 @@ const Team = () => {
       nickname: 'Mira',
       name: 'Мирослав Колпаков',
       role: 'Support',
-      image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg',
+      image: 'https://community.fastly.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttydbPaERSR0WqmuqKgQfUYS42ES-RPPa14WyMHqE6lhKosjk5lj-RA_i0cS1q3MOuaH8O-puIfXAC2TCxet34uNtGSu3whh3smjWn9areHuQOwQoX5ImFrUJukHrjJS5YIFjiD_O/360fx360f',
       socials: {
         twitch: '#',
         instagram: '#',
@@ -61,7 +61,7 @@ const Team = () => {
       nickname: 'Miposhka',
       name: 'Ярослав Наймушин',
       role: 'Support',
-      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg',
+      image: 'https://images.cybersport.ru/images/details-photo/plain/b9/b982b34c-82f2-407e-82f3-b1dd9a0809f2.png',
       socials: {
         twitch: '#',
         instagram: '#',
@@ -76,7 +76,7 @@ const Team = () => {
       nickname: 'Silent',
       name: 'Айрат Газеев',
       role: 'Coach',
-      image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg',
+      image: 'https://cdn0.gamesports.net/edb_player_images/1000/1996.png?1535552372',
       socials: {
         twitch: '#',
         instagram: '#',
